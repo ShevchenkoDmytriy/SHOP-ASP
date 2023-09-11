@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "Hash": "cxP6eoJvpmggeQZmTr2leVyi2aG7hwGgH8H2JGqXJhQ=",
+  "Source": "MVC",
+  "BasePath": "_content/MVC",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MVC\\wwwroot",
+      "Source": "MVC",
+      "ContentRoot": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\Style.css",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "style/Style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style\\Style.css"
+    }
+  ]
+}
