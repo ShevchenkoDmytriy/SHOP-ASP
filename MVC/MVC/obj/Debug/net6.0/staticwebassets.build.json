@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cxP6eoJvpmggeQZmTr2leVyi2aG7hwGgH8H2JGqXJhQ=",
+  "Hash": "iezAJiwNh0+R0pCtPSaiOsfP9nuLkHPLCofD8qJ/vTs=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\image\\nd2m6os0tmc9env4gc8jh3er0j.png",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "image/nd2m6os0tmc9env4gc8jh3er0j.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\nd2m6os0tmc9env4gc8jh3er0j.png"
+    },
+    {
+      "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\js\\JavaScript.js",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "js/JavaScript.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
+    },
     {
       "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\Style.css",
       "SourceId": "MVC",

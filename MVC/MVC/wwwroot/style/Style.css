@@ -5,17 +5,16 @@
     color: #f7f7f7;
 }
 
-html,
+
 body {
     height: 100%;
 }
 
-section {
-    position: fixed;
+.section-footer {
     left: 0;
     bottom: 12px;
     width: 100%;
-    background: rgb(226, 226, 226);
+    background: rgb(238, 238, 238);
     padding-top: 60px;
 }
 
@@ -27,7 +26,7 @@ footer.top > img {
 footer {
     position: relative;
     margin: 0 30px;
-    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0,0.5);
 }
 
     footer.top {
@@ -61,11 +60,11 @@ footer {
 
 footer h2 {
     margin: 0 0 10px;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: rgba(0, 0, 0, 0.96);
+    color: rgba(0, 0, 0);
 }
 
 footer p {
@@ -102,6 +101,10 @@ footer.top .socials {
 
 .socials-column :is(h2, p) {
     display: none;
+}
+
+.links-column a {
+    color: black;
 }
 
 @media (width > 400px) {
@@ -156,3 +159,72 @@ footer.top .socials {
         display: block;
     }
 }
+
+nav {
+    position: sticky;
+    top: -70px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: rgb(0, 0, 104);
+    transition: 0.25s linear;
+}
+
+    nav.scrolled-down {
+        top: 0;
+        box-shadow: 0 10px 50px rgba(0, 0, 0, 0.14);
+    }
+
+.links1 {
+    display: flex;
+    gap: 16px;
+}
+
+    .links1 a {
+        padding-top: 7px;
+        color: #f8f8f8;
+        font-size: 24px;
+        text-decoration: none;
+    }
+
+        .links1 a:hover {
+            color: yellow;
+        }
+
+nav img {
+    width: 34px;
+    height: 34px;
+    transform-origin: 0% 50%;
+    transition: 0.3s;
+}
+
+.container {
+    margin: 0 10%;
+    width: 80%;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container .search1 {
+    width: 500px;
+    height: 30px;
+}
+
+.search3 {
+    display: flex;
+}
+
+.search2 {
+    height: 30px;
+    background-color: yellow;
+    border: 1px solid rgb(106, 106, 172);
+    width: 60px;
+}
+

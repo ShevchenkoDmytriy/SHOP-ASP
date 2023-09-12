@@ -1,6 +1,14 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\image\\nd2m6os0tmc9env4gc8jh3er0j.png",
+      "PackagePath": "staticwebassets\\image\\nd2m6os0tmc9env4gc8jh3er0j.png"
+    },
+    {
+      "Id": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\js\\JavaScript.js",
+      "PackagePath": "staticwebassets\\js\\JavaScript.js"
+    },
+    {
       "Id": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\Style.css",
       "PackagePath": "staticwebassets\\style\\Style.css"
     },
