@@ -2,7 +2,7 @@
     margin: 0;
     background: white;
     font-family: "Euclid Circular A", "Poppins";
-    color: #f7f7f7;
+    color: #e9e9e9;
 }
 
 
@@ -228,3 +228,56 @@ nav img {
     width: 60px;
 }
 
+    .search2:hover {
+        background-color: white
+    }
+
+.body-main {
+    margin-top: 1%;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    font-family: "Euclid Circular A", "Poppins";
+}
+
+.clas {
+    display: flex;
+    flex-flow: column wrap;
+    padding-left: 10%;
+    padding-right: 2%;
+    border-top: 2px solid #e9e9e9;
+}
+
+.Tovar {
+    border-left: 2px solid #e9e9e9;
+    border-top: 2px solid #e9e9e9;
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.clas a {
+    margin-top: 20%;
+}
+
+.Product {
+    color: black;
+    border: 2px solid #e9e9e9;
+    height: 300px;
+    width: 220px;
+    text-align: center;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+    .Product img {
+        margin-top: 1%;
+        border: 2px solid #e9e9e9;
+        width: 170px;
+        height: 140px;
+    }
+
+.clas a {
+    text-decoration: none;
+    color: darkblue;
+}
