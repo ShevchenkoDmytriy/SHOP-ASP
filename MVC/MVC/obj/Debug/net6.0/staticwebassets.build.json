@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iezAJiwNh0+R0pCtPSaiOsfP9nuLkHPLCofD8qJ/vTs=",
+  "Hash": "EFE82UEkjpmFUeQM/dKVKea7tI+DXrxkSIOm1Aw3HLs=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\style\\Style.css"
+    },
+    {
+      "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style-for-login.css",
+      "SourceId": "MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\",
+      "BasePath": "_content/MVC",
+      "RelativePath": "style/style-for-login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\style\\style-for-login.css"
     }
   ]
 }

@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\style\\Style.css"
     },
     {
+      "Id": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style-for-login.css",
+      "PackagePath": "staticwebassets\\style\\style-for-login.css"
+    },
+    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MVC.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
