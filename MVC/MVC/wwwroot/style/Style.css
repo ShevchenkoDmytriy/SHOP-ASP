@@ -158,56 +158,6 @@ footer.top .socials {
         display: block;
     }
 }
-@media (width <= 935px) {
-    .container .search1 {
-        width: 300px;
-    }
-    /* .search2{
-    width: 30px;
-      } */
-}
-
-@media (width <= 685px) {
-    .container .search1 {
-        width: 200px;
-    }
-
-    .search2 {
-        width: 30px;
-    }
-}
-
-@media (width <= 525px) {
-    .container .search1 {
-        width: 120px;
-    }
-
-    .search2 {
-        width: 00px;
-        visibility: hidden;
-        height: 0px;
-        margin: 0;
-        padding: 0;
-    }
-}
-
-@media (width <= 575px) {
-    .Product {
-        display: flex;
-        width: 90%;
-        height: 12%;
-    }
-
-        .Product img {
-            width: 30%;
-        }
-
-        .Product input {
-            height: 20%;
-            margin-top: 28%;
-            margin-right: 2%;
-        }
-}
 
 nav {
     position: sticky;
@@ -301,8 +251,9 @@ nav img {
     width: 100%;
     border-left: 2px solid #e9e9e9;
     border-top: 2px solid #e9e9e9;
-    display: inline-block;
-    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .clas a {
@@ -332,3 +283,54 @@ nav img {
     color: darkblue;
 }
 
+@media (width <= 935px) {
+    .container .search1 {
+        width: 300px;
+    }
+    /* .search2{
+  width: 30px;
+    } */
+}
+
+@media (width <= 685px) {
+    .container .search1 {
+        width: 200px;
+    }
+
+    .search2 {
+        width: 30px;
+    }
+}
+
+@media (width <= 525px) {
+    .container .search1 {
+        width: 120px;
+    }
+
+    .search2 {
+        width: 00px;
+        visibility: hidden;
+        height: 0px;
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media (width <= 575px) {
+    .Product {
+        display: flex;
+        width: 90%;
+        height: 150px;
+    }
+
+        .Product img {
+            margin: 1%;
+            width: 90%;
+        }
+
+        .Product input {
+            height: 20%;
+            margin-top: 28%;
+            margin-right: 2%;
+        }
+}
