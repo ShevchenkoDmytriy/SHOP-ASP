@@ -17,6 +17,11 @@ namespace MVC.Controllers
             //var users = await db.users.ToListAsync();
             return View();
         }
+        public async Task<IActionResult> Login()
+        {
+            //var users = await db.users.ToListAsync();
+            return View();
+        }
 
         //public IActionResult About()
         //{

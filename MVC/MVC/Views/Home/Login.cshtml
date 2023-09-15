@@ -1,1 +1,66 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
+          rel="stylesheet" />
+    <link rel="stylesheet" href="~/style/style-for-login.css" />
+</head>
+<body>
+    <section>
+        <header>
+            <nav id="nav">
+                <div class="container flex">
+                    <a href="@Url.Action("Index", "Home")"><h1 style="font-size: 25px;">SHOP</h1></a>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section>
+        <div class="regi">
+            <div class="menu">
+                <form action="" method="post">
+                    <div>
+                        <label class="Text" asp-for="login">Login</label>
+                    </div>
+                    <div>
+                        <input class="Text" type="text" name="Login" /><br />
+                    </div>
+                    <div>
+                        <label class="Text" asp-for="password">Password</label>
+                    </div>
+                    <div>
+                        <input class="Text" type="password" name="Password" /><br />
+                    </div>
+                    <div>
+                        <input class="Enter" type="submit" value="Sign in" />
+                    </div>
+                    <div>
+                        <p><a href="">Sign up</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <section id="section-about" class="section-footer">
+        <footer class="bottom">
+            <p class="copyright">© 2023 All rights reserved</p>
+            <div class="legal">
+                <a> License </a>
+                <a> Terms </a>
+                <a> Privacy </a>
+            </div>
+        </footer>
+    </section>
+</body>
+</html>
