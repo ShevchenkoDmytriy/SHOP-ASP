@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\style\\style-for-login.css"
     },
     {
+      "Id": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style-for-regi.css",
+      "PackagePath": "staticwebassets\\style\\style-for-regi.css"
+    },
+    {
       "Id": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style.css",
       "PackagePath": "staticwebassets\\style\\style.css"
     },

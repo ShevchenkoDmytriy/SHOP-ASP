@@ -22,7 +22,11 @@ namespace MVC.Controllers
             //var users = await db.users.ToListAsync();
             return View();
         }
-
+        public async Task<IActionResult> Registration()
+        {
+            //var users = await db.users.ToListAsync();
+            return View();
+        }
         //public IActionResult About()
         //{
         //    return View();
