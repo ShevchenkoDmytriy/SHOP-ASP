@@ -6,6 +6,7 @@ namespace MVC.Controllers
 {
     public class HomeController : Controller
     {
+        int n = 0;
         ApplicationDbContext db;
         public HomeController(ApplicationDbContext context)
         {
@@ -34,6 +35,24 @@ namespace MVC.Controllers
             db.users.Add(user);
             await db.SaveChangesAsync();
             return RedirectToAction("Index");
+        }
+        [HttpPost]
+        public IActionResult Login(Users user)
+        {
+            // Check if a user with the same name and age already exists in the database
+            var existingUser = db.users.FirstOrDefault(u => u.Login == user.Login && u.Password == user.Password);
+
+            if (existingUser != null)
+            {
+                n = 1;
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                return RedirectToAction("Login");
+
+            }
+ 
         }
 
     }
