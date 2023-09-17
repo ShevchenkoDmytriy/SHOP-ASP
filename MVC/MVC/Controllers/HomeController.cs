@@ -6,11 +6,11 @@ namespace MVC.Controllers
 {
     public class HomeController : Controller
     {
-        //ApplicationDbContext db;
-        //public HomeController(ApplicationDbContext context)
-        //{
-        //    db = context;
-        //}
+        ApplicationDbContext db;
+        public HomeController(ApplicationDbContext context)
+        {
+            db = context;
+        }
 
         public async Task<IActionResult> Index()
         {
@@ -27,19 +27,14 @@ namespace MVC.Controllers
             //var users = await db.users.ToListAsync();
             return View();
         }
-        //public IActionResult About()
-        //{
-        //    return View();
-        //}
-
-        //[HttpPost]
-        //public async Task<IActionResult> About(/*string Name,int Age*/Users user)
-        //{
-        //    //var newUser = new Users { Name = Name, Age = Age };
-        //    db.users.Add(user);
-        //        await db.SaveChangesAsync();
-        //        return RedirectToAction("Index");
-        //}
+        [HttpPost]
+        public async Task<IActionResult> Registration(/*string Name,int Age*/Users user)
+        {
+            //var newUser = new Users { Name = Name, Age = Age };
+            db.users.Add(user);
+            await db.SaveChangesAsync();
+            return RedirectToAction("Index");
+        }
 
     }
 }

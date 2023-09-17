@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model IEnumerable<MVC.Model.Users>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8" />
@@ -29,7 +31,7 @@
     <section>
         <div class="regi">
             <div class="menu">
-                <form action="" method="post">
+                <form action="@Url.Action("Registration", "Home")" method="post">
                     <div>
                         <label class="Text" asp-for="login">Login</label>
                     </div>
