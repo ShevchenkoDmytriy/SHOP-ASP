@@ -15,7 +15,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
           rel="stylesheet" />
-    <link rel="stylesheet" href="~/style/style.css" />
+    <link rel="stylesheet" href="~/style/style-for-index.css" />
 </head>
 <body>
     <section>
@@ -23,14 +23,16 @@
             <nav id="nav">
                 <div class="container flex">
                     <h1 style="font-size: 25px;">SHOP</h1>
-                    <div class="search3">
-                        <div>
-                            <input class="search1" type="search">
-                        </div>
-                        <div>
-                            <input class="search2" type="submit" value="🔍">
-                        </div>
+                        <form>
+                        <div class="search3">
+                            <div>
+                                <input class="search1" type="search">
+                            </div>
+                            <div>
+                                <input class="search2" type="submit" value="🔍">
+                            </div>
                     </div>
+                        </form>
                     <div class="links1">
                         <a href="#section-about">About</a>
                         <a class="profile" href="@Url.Action("Login", "Home")"><img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt=""></a>
@@ -52,20 +54,23 @@
                     <a href="">Товари</a>
                 </div>
                 <div class="Tovar">
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
+                    <form>
+                        <div class="Product">
+                            <div>
+                                <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
+                            </div>
+                            <div>
+                                <h2>About</h2>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit</p>
+                            </div>
+                            <div>
+                                <input type="submit" value="Buy">
+                            </div>
                         </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
+                    </form>
+
                     <div class="Product">
                         <div>
                             <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">

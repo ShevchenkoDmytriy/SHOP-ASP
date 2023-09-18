@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "s1wCUIHIbdFe4xufW+0LlgAUZb+C3MmSqX3LgmQt/PE=",
+  "Hash": "TxZGme17kwLyu4zR/48o7XeSvwvHE56MOarcwU3rguA=",
   "Source": "MVC",
   "BasePath": "_content/MVC",
   "Mode": "Default",
@@ -51,12 +51,12 @@
       "OriginalItemSpec": "wwwroot\\js\\JavaScript.js"
     },
     {
-      "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style.css",
+      "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style-for-index.css",
       "SourceId": "MVC",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\",
       "BasePath": "_content/MVC",
-      "RelativePath": "style/style.css",
+      "RelativePath": "style/style-for-index.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -65,7 +65,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\style\\style.css"
+      "OriginalItemSpec": "wwwroot\\style\\style-for-index.css"
     },
     {
       "Identity": "C:\\Users\\Dmitriy\\source\\repos\\MVC\\MVC\\wwwroot\\style\\style-for-login.css",

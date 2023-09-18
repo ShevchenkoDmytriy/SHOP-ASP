@@ -40,11 +40,7 @@ namespace MVC.Controllers
             {
                 return RedirectToAction("Index");
             }
-            else
-            {
-                return RedirectToAction("Login");
-
-            }
+            return RedirectToAction("Login");
         }
     }
 }

@@ -190,7 +190,7 @@ nav {
     }
 
         .links1 a:hover {
-            color: yellow;
+            color: orange;
         }
 
 nav img {
@@ -222,7 +222,7 @@ nav img {
 
 .search2 {
     height: 30px;
-    background-color: yellow;
+    background-color: orange;
     border: 1px solid rgb(106, 106, 172);
     width: 60px;
 }
