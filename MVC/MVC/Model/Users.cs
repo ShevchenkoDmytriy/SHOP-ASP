@@ -1,4 +1,6 @@
-﻿namespace MVC.Model
+﻿using System.Numerics;
+
+namespace MVC.Model
 {
     public class Users
     {

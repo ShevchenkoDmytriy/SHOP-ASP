@@ -1,4 +1,4 @@
-﻿@model IEnumerable<MVC.Model.Users>
+﻿@model IEnumerable<MVC.Model.Products>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -54,122 +54,27 @@
                     <a href="">Товари</a>
                 </div>
                 <div class="Tovar">
-                    <form>
-                        <div class="Product">
-                            <div>
-                                <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                            </div>
-                            <div>
-                                <h2>About</h2>
-                            </div>
-                            <div>
-                                <p>Lorem ipsum dolor sit</p>
-                            </div>
-                            <div>
-                                <input type="submit" value="Buy">
-                            </div>
-                        </div>
-                    </form>
+                    @foreach (var product in Model)
+                        {
+                            <form>
 
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-                    <div class="Product">
-                        <div>
-                            <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
-                        </div>
-                        <div>
-                            <h2>About</h2>
-                        </div>
-                        <div>
-                            <p>Lorem ipsum dolor sit</p>
-                        </div>
-                        <div>
-                            <input type="submit" value="Buy">
-                        </div>
-                    </div>
-
+                            <div class="Product">
+                                <div>
+                                    <img src="image/nd2m6os0tmc9env4gc8jh3er0j.png" alt="">
+                                </div>
+                                <div>
+                                    <h2>@product.Name</h2>
+                                </div>
+                                <div>
+                                    <p>@product.Price</p>
+                                </div>
+                                <div>
+                                    <input type="submit" value="Buy">
+                                </div>
+                            </div>
+                        
+                            </form>
+                        }
                 </div>
             </div>
         </body>

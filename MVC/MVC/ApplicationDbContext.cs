@@ -6,6 +6,7 @@ namespace MVC
     public class ApplicationDbContext : DbContext
     {
         public DbSet<Users> users { get; set; } = null!;
+        public DbSet<Products> products { get; set; } = null!;
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) 
         {
         }

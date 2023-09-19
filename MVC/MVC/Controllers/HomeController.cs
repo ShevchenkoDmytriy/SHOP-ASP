@@ -2,8 +2,8 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MVC.Model;
-namespace MVC.Controllers
-{
+namespace MVC.Controllers;
+
     public class HomeController : Controller
     {
         ApplicationDbContext db;
@@ -13,7 +13,7 @@ namespace MVC.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View();
+        return View(db.products);
         }
         public async Task<IActionResult> Login()
         {
@@ -43,4 +43,4 @@ namespace MVC.Controllers
             return RedirectToAction("Login");
         }
     }
-}
+
